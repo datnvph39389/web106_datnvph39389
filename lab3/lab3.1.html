@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+.container{
+    width:84%;
+    margin:0 auto;
+}
+.header{
+    padding:15px;
+    background-color: #EEEEEE;
+    color:black;
+    text-align: center;
+
+}
+.menu{
+    padding:8px;
+    background-color: #EEEEEE;
+    color:black;
+    text-align: center;
+    margin: 10px auto;
+}
+.flex{
+    display: flex;
+    flex-direction: 15% 60% 15%;
+    justify-content: space-between;
+    width:100%;
+    height:300px;
+}
+ 
+.c1{
+    background-color: #EEEEEE;
+    color:black;
+    height:300px;
+    width: 15%;
+}
+.c0 >h2{
+    margin: 140px auto;
+    text-align: center;
+}
+.c0{
+    background-color: #EEEEEE;
+    color:black;
+    height:300px;
+    width: 66%;
+}
+.c1 >h2{
+    text-align: center;
+     
+    margin: 140px auto;
+}
+.footer{
+    
+    padding:12px;
+    background-color: #EEEEEE;
+    color:black;
+    text-align: center;
+    margin: 10px auto;
+} 
+@media screen and (max-width:700px){
+    .flex{
+        display: flex;
+        flex-direction: 15% 60% 15%;
+        justify-content: space-between;
+        width:100%;
+        height:300px;
+    } 
+}
+header >h2{
+    text-align: center;
+}
+</style>
+<body>
+    <div class="container">
+        <div class="header">
+            <h2>Header</h2>
+        </div>
+        <div class="menu">
+           <h2>Thanh menu điều hướng</h2> 
+        </div>
+        <div class="flex">
+            <div class="c1">
+                <h2>Nội dung</h2>
+            </div>
+            <div class="c0">
+                <h2>Nội dung chính</h2>
+            </div>
+            <div class="c1">
+                <h2>Nội dung</h2>
+            </div>
+        </div>
+        <div class="footer">
+            <h2>Footer</h2>
+        </div>
+    </div>
+</body>
+
+</html>
